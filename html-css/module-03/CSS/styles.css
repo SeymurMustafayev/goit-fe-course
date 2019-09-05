@@ -15,28 +15,37 @@ body {
 .container {
     width: 900px;
     margin: 0 auto;
-    text-align:center;
+}
+.page-header{
+    padding: 72px 0px 99px 0px;
 }
 .site-navigation-lead{
-    font-size: 14px;
+    text-align:center;
+    font-size: 0px;
     list-style: none; 
     margin: 0;
     padding: 0;
     }
 .site-navigation {
-    display: inline-block; 
+    display: inline-block;
     margin-right: 100px;
-    padding: 72px 0px 99px 0px;
    }
 .site-navigation:last-child{
     margin-right: 0;
 }
-
-.site-navigation a{
-    color: #626262;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 24px;
+.site-navigation-link {
+     display: block;
+     color:#626262;
+     padding: 0;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     line-height: 24px;
+ }
+.site-navigation a:hover,
+.site-navigation a:focus{
+    background-color: #fff;
+    color: #03a9f4;
 }
 .central-content {
     list-style: none;
@@ -47,11 +56,16 @@ body {
  .content-item {
     display: inline-block;
     width: 420px;
+    margin-top: 0px;
     margin-right: 60px;
+    margin-bottom: 130px;
   }
  .content-item:nth-child(2n) {
     margin-right: 0;
- }
+}
+ .content-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+}
 .central-content img {
     width: 420px;
     height: 280px;
@@ -75,18 +89,17 @@ body {
 .topic-item{
     font-size: 14px;
     line-height:24px;
-    margin-top: 0px;
-    margin-bottom: 130px;
     text-align: left;
+    margin: 0px;
 }
 .load{
+    display: block;
     font-size: 20px;
     line-height: 24px;
     background-color: transparent;
     font-family:'Playfair Display', serif;
-    margin: 0px;
+    margin: 0px auto;
     padding: 30px 82px 30px 82px;
     border-color: #626262;
-    margin-bottom: 60;
 
 }
