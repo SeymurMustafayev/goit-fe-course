@@ -1,0 +1,31 @@
+html { 
+    box-sizing:border-box;
+ }
+ *,
+ *::before,
+ *::after { 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+ }
+ html, body{
+    font-size: 0px;
+ 
+ }
+ .container{
+     width: 1202px;
+     margin: 0 auto;
+     padding: 0px;
+ }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.logo {
+    height:22px;
+    width: 92px;
+}
+    
