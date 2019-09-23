@@ -1,0 +1,367 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  html {
+    box-sizing: border-box;
+}
+​
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.header{
+    background-image: url(../img/background_img_1x.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 138px;
+    background-repeat: no-repeat;
+    
+}
+.button__and__text{
+    text-align: center;
+    margin-bottom: 34px;
+}
+.buttons{
+    margin-bottom:113px;
+}
+.button{
+    width: 90px;
+    height: 32px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    background-color:transparent;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+.deutsch__text{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px;
+    margin-bottom:35px;
+}
+.heading__text{
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;  
+    margin: 0px;
+    margin-bottom:17px;
+}
+.text__p{
+    width: 220px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.button__read_1{
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: 0px;
+    display: block;
+    margin: 0 auto;
+}
+.central__content{
+    padding-top: 65px;
+    padding-bottom: 57px;
+}
+.partner__text{
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.partner__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 28px;
+}
+
+.mans__girls {
+    box-sizing: border-box;
+}
+
+.foto::before{
+    content: '';
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.mustached__man::before {
+    background-image: url(../img/ikons_tv.png);
+    background-color: #ff4e50;
+    background-position: center;
+}
+.strange__man::before{
+    background-image: url(../img/ikons_chemistry.png);
+    background-color: #ffa507;
+    background-position: center;
+}
+.toothy__girl::before{
+    background-image: url(../img/ikons_tea.png);
+    background-color: #1cd7ad;
+    background-position: center;
+}
+.squiting__girl::before{
+    background-image: url(../img/ikons_telegram.png);
+    background-color: #4e73db;
+    background-position: center;
+}
+.foto{
+    position: relative;
+    width: 121px;
+    height: 121px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+.partner__name{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 13px;
+
+}
+.partner__information{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.button__read_2{
+    width:280px;
+    height: 40px;
+    border-radius:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 78, 80);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .mans__girls:not(:last-child){
+        margin-bottom: 28px;
+        }
+        .mans__girls {
+            padding: 0 50px;
+        }
+}
+        /* Tablet */
+@media(min-width:768px) {
+    .container {
+        width: 748px;
+    }
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../img/background_table.jpg);
+    padding-top: 38px;
+    padding-bottom: 234px;
+    background-repeat: no-repeat;
+    
+}
+
+.button__and__text{
+    width: 672px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+.buttons{
+    margin-bottom:0px;
+}
+.deutsch__text{
+    margin-bottom:0px; 
+    text-align: left;
+}
+.heading__text{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom:39px;
+    font-size: 52px;
+}
+.text__p{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.button__read_1{
+    width: 226px;
+    height: 40px;
+}
+.central__content{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.partner__text{
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+.partner__list{
+   width: 490px;
+   display: flex;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 59px;
+}
+.mans__girls{
+    width: 220px;
+    margin-bottom: 59px;
+}
+.foto{
+
+ margin-bottom: 20px;
+}
+
+ @media(min-width:768px) and (max-width:939px) {
+    .mans__girls:nth-last-of-type(-n+2){
+    margin-bottom: 0px;
+    }
+}
+}
+/*  Desktop */
+@media(min-width:940px) {
+.container {
+     width: 940px;
+ } 
+.header{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../img/Background_desktop.jpg);
+    padding-top: 38px;
+    padding-bottom: 234px;
+    background-repeat: no-repeat;
+ }
+.button__and__text{
+     width: 940px;
+ }
+.button{
+    width: 91px;
+    height: 36px;
+}
+.button__and__text{
+    margin-bottom: 148px;
+ }
+ .central__content{
+    padding-bottom: 40px;
+}
+.partner__list{
+    width: 940px;
+    margin-bottom: 59px;
+   
+ }
+ .mans__girls{
+     margin-bottom: 0px;
+ }
+ .button__read_2{
+    width:192px;
+    margin: 0 auto;
+ }
+
+}

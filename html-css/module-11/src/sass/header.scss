@@ -1,0 +1,35 @@
+.header {
+  background: firebrick;
+}
+
+.nav {
+  padding: 20px 0;
+
+  &__list {
+    @extend %flex-row;
+    // display: flex;
+    // justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__link {
+    @include fontMixin(20px, #fff,1.1);
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: yellow;
+    }
+  }
+
+  &__item {
+    border: 1px solid transparent;
+
+    &:nth-of-type(2) {
+      border: 1px solid green;
+    }
+  }
+}
