@@ -505,7 +505,7 @@ html {
 
 .nav__item__linck {
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -515,7 +515,7 @@ html {
 
 .header__text {
   font-size: 72px;
-  font-family: "Kaushan Script, sans-serif";
+  font-family: "Kaushan Script", sans-serif;
   color: #fff;
   line-height: 1.2;
   text-align: center;
@@ -524,7 +524,7 @@ html {
 
 .header__text2 {
   font-size: 150px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -545,7 +545,7 @@ html {
   border-color: #fff;
   border-width: 3px;
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -562,7 +562,7 @@ html {
 
 .text__sections1 {
   font-size: 24px;
-  font-family: "Kaushan Script, sans-serif";
+  font-family: "Kaushan Script", sans-serif;
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -571,7 +571,7 @@ html {
 
 .text__sections2 {
   font-size: 30px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   font-weight: bold;
   text-transform: uppercase;
@@ -616,7 +616,7 @@ html {
 .item__text {
   width: 300px;
   font-size: 15px;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #999999;
   line-height: 1.6;
   text-align: left;
@@ -625,7 +625,7 @@ html {
 
 .item__text__name {
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   text-transform: uppercase;
   line-height: 1.2;
@@ -644,7 +644,7 @@ html {
 
 .text__sections1_2 {
   font-size: 24px;
-  font-family: "Kaushan Script, sans-serif";
+  font-family: "Kaushan Script", sans-serif;
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -653,7 +653,7 @@ html {
 
 .text__sections2_2 {
   font-size: 30px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   font-weight: bold;
   text-transform: uppercase;
@@ -673,7 +673,7 @@ html {
 
 .item__text_p_2 {
   font-size: 15px;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #999999;
   line-height: 1.6;
   text-align: center;
@@ -766,7 +766,7 @@ img {
 
 .team__name {
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   text-transform: uppercase;
   line-height: 1.2;
@@ -776,7 +776,7 @@ img {
 
 .team__position {
   font-size: 15px;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #999999;
   font-style: italic;
   line-height: 1.6;
@@ -800,7 +800,7 @@ img {
 
 .footer__text {
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   line-height: 1.2;
   text-align: left;
@@ -824,7 +824,7 @@ img {
   width: 150px;
   height: 40px;
   font-size: 14px;
-  font-family: "Montserrat, sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
