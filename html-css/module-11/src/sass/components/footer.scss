@@ -1,0 +1,68 @@
+.footer {
+  border-top: 1px solid $header-text-color;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.footer__text {
+  font-size: 14px;
+  font-family: $prevailing-text;
+  color: $section-text-color;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.email__window {
+  width: 380px;
+  height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input {
+  display: block;
+  width: 228px;
+  padding-left: 13px;
+}
+
+.email__button {
+  border: none;
+  display: block;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  font-family: $prevailing-text;
+  color: $header-text-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: $svg-color;
+  text-transform: uppercase;
+}
+
+span:hover {
+  color: $hover-background-color;
+}
